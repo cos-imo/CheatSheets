@@ -10,3 +10,6 @@ python3 sqlmap.py -u <url>
 ```
 python3 sqlmap.py -u <url> --current-db
 ```
+## Tables
+```
+python3 sqlmap.py -u <url> -D <db> --tables
