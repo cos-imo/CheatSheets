@@ -6,3 +6,7 @@
 ```
 python3 sqlmap.py -u <url>
 ```
+## Current DB
+```
+python3 sqlmap.py -u <url> --current-db
+```
