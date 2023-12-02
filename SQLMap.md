@@ -18,3 +18,7 @@ python3 sqlmap.py -u <url> -D <db> --tables
 ```
 python3 sqlmap.py -u <url> -D <db> -T <table> --columns
 ```
+## Dump
+```
+python3 sqlmap.py -u <url> -D <db> -T <table> -C <column1>,<column2>... --dump
+```
